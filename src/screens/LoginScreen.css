@@ -1,0 +1,90 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Ffile%2Fnetflix-background-gs7hjuwvv2g0e9fj.jpg&f=1&nofb=1&ipt=406010370a5862e828dac1b0653f199b486c5532e3cea5376ab28ecf21ac96ed&ipo=images')
+        center no-repeat;
+    background-size: cover;
+}
+
+.loginScreen__body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body > h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.loginScreen__body > h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginScreen__body{
+    position: absolute;
+    margin-left: 185px;
+    margin-right: auto;
+    text-align: center;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0, 0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0, 0.8) 100%
+    );
+}
+
+.loginScreen__button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    top: 25px;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen__input > form > input {
+    padding: 10px;
+    height: 30px;
+    width: 30%;
+    max-width: 600px;
+}
+
+.loginScreen__input{
+    margin: 20px;
+}
+
+.loginScreen__getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
