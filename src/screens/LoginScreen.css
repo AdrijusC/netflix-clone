@@ -24,13 +24,14 @@
 
 .loginScreen__body{
     position: absolute;
-    margin-left: 185px;
-    margin-right: auto;
     text-align: center;
-    top: 30%;
+    top: 25%;
     z-index: 1;
     color: #fff;
     padding: 20px;
+    left: 0;
+    right: 0;
+    margin-left: 50px;
 }
 
 .loginScreen_gradient{
